@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab7</title>
+    <link rel="stylesheet" href="lab7.css">
+
+
+</head>
+<body>
+
+    <section>
+        <table>
+            <tr>
+                <td>Descripción del Ejemplo</td>
+                <td>Ejemplo</td>
+                <td>Botón para activar el ejemplo</td>
+            </tr>
+            <tr>
+                <td>Cambiar el color de párrafo</td>
+                <td><p id="cambio-1">Aqui Cambia el color</p></td>
+                <td><Button id="boton-1">Cambio</Button></td>
+            </tr>
+            <tr>
+                <td>Añadir texto a un párrafo </td>
+                <td><input id="cambio-2">
+                    <p id="texto-2"></p>
+                </td>
+                <td><Button id="boton-2">Cambio</Button></td>
+            </tr>
+            <tr>
+                <td>Concatenar el valor de dos textos </td>
+                <td>
+                    <input id="cambio-3.1" type="text">
+                    <input id="cambio-3.2" type="text">
+                    <p id="cambio-3.3"></p>
+                </td>
+                <td><Button id="boton-3">Cambio</Button></td>
+            </tr>
+            <tr>
+                <td>Eliminar valores de una lista despegable</td>
+                <td>
+                    <select id="cambio-4">
+                    <option value="lista1">Hola</option>
+                    <option value="lista2">Aló</option>
+                    <option value="lista3">Buenas</option>
+                    </select>
+                </td>
+                <td><button><imput type="Button" onclick="Remover()">Cambio</td></button>
+            </tr>
+            <tr>
+                <td>Un botón que me lleve a un video de youtube </td>
+                <td>Me gusta esta canción</td>
+                <td><button><imput type="Button" onclick="play()">Cambio</td></button></td>
+            </tr>
+            <tr>
+                <td>Mandar un mensaje al usuario con el nombre colocado en el punto 1.3 </td>
+                <td></td>
+                <td><button><imput type="Button" onclick="Alerta()">Cambio</td></button>
+            </tr>
+            <tr>
+                <td>Manda el nombre, a la consola de js del navegador</td>
+                <td></td>
+                <td><Button id="boton-7">Cambio</Button></td>
+            </tr>
+            <tr>
+                <td>Un check, e imprimir su estado</td>
+                <td><input id="Check1" type="checkbox" name="Check"><p id="Texto-3"></p></td>
+                <td><Button><imput type="Button" onclick="check()">Cambio</td>Cambio</Button></td>
+            </tr>
+            <tr>
+                <td>Un radio e imprimir su estado </td>
+                <td><input id="Radio1" type="radio" name="Radio"><p id="Texto-4"></p></td>
+                <td><Button><imput type="Button" onclick="radio()">Cambio</Button></td>
+            </tr>
+            <tr>
+                <td>Una validación de un campo, si este es numero enviar un mensaje que solo se permiten teclas</td>
+                <td><input id="NotNum" type="text"></td>
+                <td><Button><imput type="Button" onclick="Numero()">Cambio</td></Button>
+            </tr>
+
+        </table>
+
+    </section>
+    
+    <script src="lab7.js"></script>
+</body>
+</html>
